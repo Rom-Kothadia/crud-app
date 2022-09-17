@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableHead, TableRow, styled, Button } from
 
 import { useEffect, useState } from "react";
 
-import { getUsers } from "../service/api";
+import { getUsers, deleteUser } from "../service/api";
 import { Link } from "react-router-dom";
 
 const TableStyle = styled(Table)`
@@ -41,6 +41,11 @@ const AllUsers = () => {
         setUsers(response.data);
     }
 
+    const deleteUserdata = async (id) => {
+        await deleteUser(id);
+        getUsersDetails();
+    }
+
     return (
         <TableStyle>
             <TableHead>
@@ -64,7 +69,7 @@ const AllUsers = () => {
                         <TableCell>{users.phone}</TableCell>
                         <TableCell>
                             <Button variant='contained' style={{marginRight:10}} component={Link} to={`/edit/${users.id}`}>Edit</Button>
-                            <Button variant='contained' color='secondary'>Delete</Button>
+                            <Button variant='contained' color='secondary' onClick={() => deleteUserdata(users.id)}>Delete</Button>
                         </TableCell>
                     </Tbody>
                     ))

@@ -1,32 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Rohit Sharma",
-      "username": "rohitsharma",
-      "email": "rohit@gmail.com",
-      "phone": "1234567890"
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 2
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 3
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 4
+      "name": "Virat Kohli",
+      "username": "virat",
+      "email": "kohli@gmail.com",
+      "phone": "1586285964",
+      "id": 1
     }
   ]
 }
