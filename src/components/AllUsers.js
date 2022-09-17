@@ -56,7 +56,7 @@ const AllUsers = () => {
             <TableBody>
                 {
                     users.map(users => (
-                    <Tbody>
+                    <Tbody key={users.id}>
                         <TableCell>{users.id}</TableCell>
                         <TableCell>{users.name}</TableCell>
                         <TableCell>{users.username}</TableCell>

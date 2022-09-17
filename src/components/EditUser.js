@@ -34,6 +34,7 @@ const EditUser = () => {
 
     useEffect(() => {
         getUserDetails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const onValueChange = (event) => {
