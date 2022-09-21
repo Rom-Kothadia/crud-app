@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = ' http://127.0.0.1:3002/users';
+const API_URL = ' http://127.0.0.1:3002/users' || process.env.PORT;
 
 export const addUser = async (data) => {
     try {
