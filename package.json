@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "nodemon server.js",
+    "start": "react-scripts start && run json-server",
     "json-server": "json-server --watch src/database/db.json process.env.PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
