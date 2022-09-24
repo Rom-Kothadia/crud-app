@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start && run json-server",
+    "start": "react-scripts start",
     "json-server": "json-server --watch src/database/db.json -p 3002",
     "build": "react-scripts build",
     "test": "react-scripts test",
