@@ -16,7 +16,7 @@ const NavBar = () => {
     return (
         <Header position='static'>
             <Toolbar>
-                <Tabs to='/'>Home</Tabs>
+                <Tabs to='/crud-app'>Home</Tabs>
                 <Tabs to='/all'>All Users</Tabs>
                 <Tabs to='/add'>Add User</Tabs>
             </Toolbar>

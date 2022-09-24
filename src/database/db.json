@@ -1,11 +1,18 @@
 {
   "users": [
     {
-      "name": "Virat Kohli",
+      "name": "Virat Kohli1",
       "username": "virat",
       "email": "kohli@gmail.com",
       "phone": "1586285964",
       "id": 1
+    },
+    {
+      "name": "lipi",
+      "username": "lipi",
+      "email": "",
+      "phone": "",
+      "id": 2
     }
   ]
 }

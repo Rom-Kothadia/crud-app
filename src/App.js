@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/crud-app' element={<Home />} />
         <Route path='/all' element={<AllUsers />} />
         <Route path='/add' element={<AddUser />} />
         <Route path='/edit/:id' element={<EditUser />} />
